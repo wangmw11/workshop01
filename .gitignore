@@ -1,0 +1,7 @@
+
+*.pub
+*.conf
+id_rsa
+mykey
+mykey.pub
+nginx.conf
