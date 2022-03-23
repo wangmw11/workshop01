@@ -5,3 +5,4 @@ id_rsa
 mykey
 mykey.pub
 nginx.conf
+terraform.tfvars
