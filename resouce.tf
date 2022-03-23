@@ -1,6 +1,8 @@
-//data digitalocean_ssh_key shawn_key {
-//  name = "shawn_key"
-//}
+/*
+data digitalocean_ssh_key mykey {
+  name = "mykey"
+}
+*/
 
 resource digitalocean_ssh_key mykey{
     name = "mykey"
@@ -86,3 +88,9 @@ output external-ports {
 output nginx_ip {
     value = digitalocean_droplet.nginx.ipv4_address
 }
+
+/*
+output key{
+    value = data.digitalocean_ssh_key.mykey.id
+}
+*/
